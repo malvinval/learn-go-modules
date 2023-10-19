@@ -2,5 +2,4 @@ go 1.21.3
 
 use (
 	./say-hello-consumer
-	./say-hello-module
 )
