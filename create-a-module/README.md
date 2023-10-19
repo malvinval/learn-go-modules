@@ -4,4 +4,16 @@ Untuk inisialisasi project atau module Go, langsung aja bikin sebuah directory, 
 
 Perlu diingat bahwa project Go di repository ini ga perlu ditempatin di path `$GOPATH/src`. Dimana aja bebas, **tapi jangan ditempatkan di path `GOROOT`**. `GOROOT` itu path instalasi bahasa Go di komputer, dan jangan dipake untuk menyimpan source files project disana.
 
-Langsung praktek aja ya. Di repository ini ada directory `say-hello-module` dan `say-hello-consumer`. Directory `say-hello-module` akan berperan sebagai module, dan directory `say-hello-consumer` berperan sebagai aplikasi Go yang menggunakan module `say-hello-module`.
+Langsung praktek aja ya.
+
+1. Kita rilis module dengan nama `github.com/malvinval/gosayhello`, yang disimpan dalam repository GitHub [https://www.github.com/malvinval/gosayhello](https://www.github.com/malvinval/gosayhello).
+
+2. Kita berikan tag release `v1.0.0` ke module tersebut.
+
+## Commands
+
+1. `go mod init github.com/malvinval/gosayhello`
+2. `git tag v1.0.0`
+4. `git push origin v1.0.0`
+
+Jangan lupa push semuanya ke repository.
