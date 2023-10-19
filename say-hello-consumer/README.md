@@ -9,3 +9,6 @@ Module ini kita jadikan sebagai contoh module Go yang dependen terhadap module `
 - Nama package: `sayhello`
 - Callable function: `SayHello()`
 
+## Directory **`go/pkg/mod`**
+
+Setelah kita jalanin command `go get github.com/malvinval/gosayhello`, maka module tersebut akan masuk ke dalam directory `/home/username/go/pkg/mod/github.com/malvinval` di komputer lokal kita. Kesimpulannya adalah, directory `go/pkg/mod` digunakan untuk menyimpan seluruh mmodule yang dibutuhkan oleh project Go kita.
