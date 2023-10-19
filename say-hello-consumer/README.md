@@ -1,6 +1,6 @@
 ## Say Hello Consumer
 
-Module ini kita jadikan sebagai contoh module Go yang dependen terhadap module sayhello ([https://github.com/malvinval/gosayhello](https://github.com/malvinval/gosayhello)). Dalam module ini, kita bisa jalankan command `go get github.com/malvinval/gosayhello`, lalu jalankan command `go mod tidy`.
+Module ini kita jadikan sebagai contoh module Go yang dependen terhadap module `github.com/malvinval/gosayhello` ([https://github.com/malvinval/gosayhello](https://github.com/malvinval/gosayhello)). Dalam module ini, kita bisa jalankan command `go get github.com/malvinval/gosayhello`, lalu jalankan command `go mod tidy`.
 
 ## Spesifikasi module dependency
 
